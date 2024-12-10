@@ -1,0 +1,44 @@
+/* Style du carrousel */
+.carousel-inner img {
+    width: 90%;
+    height: 400px; /* Ajuster la hauteur de l'image */
+    object-fit: cover;
+  }
+  
+  /* Style des filtres */
+  .filters h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .filters select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style des cartes de produits */
+  .card {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Effet d'agrandissement au survol */
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover; /* S'assurer que l'image est bien cadrée */
+  }
+  
+  /* Modal */
+  .modal-header {
+    background-color: #f8f9fa;
+  }
+  
+  .modal-footer button {
+    margin-left: 5px;
+  }
+  
